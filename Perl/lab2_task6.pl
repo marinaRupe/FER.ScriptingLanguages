@@ -24,6 +24,6 @@ while(<>) {
 	}
 	
 	if (eof) {
-        print "\n";
-    }
+        	print "\n";
+    	}
 }

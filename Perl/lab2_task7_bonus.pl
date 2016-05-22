@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 #Bonus task: for every client in the file calculate and print the number of server accesses. Sort the print descending.
-#Argument: localhost_access_log.txt
 
 while (<>) {
 	$line = $_;

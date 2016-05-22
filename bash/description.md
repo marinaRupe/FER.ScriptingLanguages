@@ -1,1 +1,1 @@
-Bash scripts written for laboratory exercise.
+Bash scripts written for the laboratory exercise.

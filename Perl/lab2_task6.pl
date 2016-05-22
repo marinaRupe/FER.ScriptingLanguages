@@ -11,12 +11,12 @@ while(<>) {
 			$backwards = ord('A') - $distance;
 			
 			if ($backwards <= 0) {
-                $char = chr(ord($c) - $shift);
-            }
+                		$char = chr(ord($c) - $shift);
+            		}
 			else {
 				$char = chr(ord('Z') - $backwards + 1);
 			}
-        }
+        	}
 		else {
 			$char = $c;
 		}

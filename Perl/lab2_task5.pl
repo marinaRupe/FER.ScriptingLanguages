@@ -7,8 +7,7 @@ if(@ARGV != 1){
 $first_line = 1;
 $k = 0;
 while($line = <>) {
-	
-    if($first_line) {
+    	if($first_line) {
 		@factors = split /;/, $line;
 		$number_of_factors = @factors;
 		$first_line = 0;
@@ -28,7 +27,6 @@ while($line = <>) {
 			}
 			$i++;
 		}
-	
 		$list[$k] = "$total $jmbag $last_name $first_name";
 		$k++;
 	}
@@ -41,11 +39,10 @@ print "-------------------\n";
 
 for ($i = 0, $j = 1; $i < $k; $i++, $j++) {
 	@records = split / /, $sorted_list[$i];
-    $total = $records[0];
-    $jmbag = $records[1];
-    $last_name = $records[2];
-    $first_name = $records[3];
+    	$total = $records[0];
+    	$jmbag = $records[1];
+    	$last_name = $records[2];
+    	$first_name = $records[3];
 	$list = "$last_name, $first_name ($jmbag)";
-    
 	printf "%4d. %s : %.2f\n", $j, $list, $total;
 }

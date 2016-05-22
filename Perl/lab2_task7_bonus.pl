@@ -3,11 +3,10 @@
 
 while (<>) {
 	$line = $_;
-    @data = split / /, $line;
-    $ip = $data[0];
-    $clients{$ip} +=1;
+    	@data = split / /, $line;
+    	$ip = $data[0];
+    	$clients{$ip} +=1;
 }
-
 @number_of_accesses = (reverse sort {$a <=> $b} values %clients);
 $n = @number_of_accesses;
 

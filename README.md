@@ -1,2 +1,2 @@
 # FER.ScriptingLanguages
-Laboratory exercises for subject Scripting Languages.
+Laboratory exercises for course Scripting Languages (Bash, Perl and Python).

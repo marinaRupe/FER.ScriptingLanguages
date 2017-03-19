@@ -1,5 +1,5 @@
 # FER.ScriptingLanguages
-Laboratory exercises for course Scripting Languages (Bash, Perl and Python) at FER, University of Zagreb (2015/2016).
+Laboratory exercises for the Scripting Languages course (Bash, Perl and Python) at FER, University of Zagreb (2015/2016).
 
 Link to a course site: http://www.fer.unizg.hr/en/course/scrlan
 
